@@ -58,8 +58,13 @@ from .utils import (
 
 
 OPENEDX_SITES = {
+
     'edx': {
         'url': 'https://courses.edx.org',
+        'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
+    },
+    'vitol': {
+        'url': 'https://vitol.ac.in',
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
     },
     'edge': {
